@@ -25,8 +25,8 @@ rm -r /var/log/lotus
 systemctl daemon-reload
 systemctl reset-failed
 systemctl daemon-reload
-rm -r /opt/cache/param_cache/
-rm -r /opt/cache/parent_cache/
+#rm -r /opt/cache/param_cache/
+#rm -r /opt/cache/parent_cache/
 rm -r /opt/go
 rm /etc/profile.d/golang.sh
 rm /etc/profile.d/npm.sh
